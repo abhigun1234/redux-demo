@@ -22,8 +22,13 @@ function Bank(props) {
     console.log(store.getState())
      //store.dispatch("Deposit")
     // console.log(store.getState())
-  function withdrow(){
+  function dipopsit(){
     store.dispatch({type:"Deposit"})
+    console.log(store.getState())
+
+  }
+  function withdrow(){
+    store.dispatch({type:"WithDrow"})
     console.log(store.getState())
 
   }
@@ -31,6 +36,7 @@ function Bank(props) {
     return (
         <div>
             <button onClick={withdrow}>Withdrow</button>
+            <button onClick={dipopsit}>dipopsit</button>
         </div>
     );
 }
