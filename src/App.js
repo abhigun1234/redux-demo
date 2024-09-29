@@ -7,7 +7,7 @@ import MybankDemo from './MybankDemo';
 function App() {
   return (
     <div className="App">
- <MybankDemo></MybankDemo>
+<Bank></Bank>
     </div>
   );
 }
