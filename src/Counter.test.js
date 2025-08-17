@@ -11,3 +11,13 @@ test("increment counter", () => {
 
   expect(counter).toHaveTextContent("1"); // if initial value = 0
 });
+test("decrement counter", () => {
+  render(<CounterComp />);
+
+  const incrementBtn = screen.getByTestId("decrement");
+  const counter = screen.getByTestId("counter");
+
+  fireEvent.click(incrementBtn);
+
+  expect(counter).toHaveTextContent("-1"); // if initial value = 0
+});

@@ -9,6 +9,9 @@ function CounterComp() {
       <button data-testid="increment" onClick={() => setCount(count + 1)}>
         Increment
       </button>
+       <button data-testid="decrement" onClick={() => setCount(count -1)}>
+        Increment
+      </button>
     </div>
   );
 }
