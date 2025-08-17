@@ -9,6 +9,11 @@ import KeyboardEvents from './KeyboardEvents';
 import RefDemo from './RefDemo';
 import ClipBoard from './ClipBoard';
 import BankReducDemo from './BankReducDemo';
+import CompB from './CompB';
+import CompA from './CompA';
+import CounterComp from './CounterComp';
+import CompC from './CompC';
+import CompD from './CompD';
 
 function App() {
   return (
@@ -21,7 +26,14 @@ function App() {
 {/* <KeyboardEvents></KeyboardEvents> */}
 {/* <RefDemo></RefDemo> */}
 {/* <ClipBoard></ClipBoard> */}
-<BankReducDemo></BankReducDemo>
+{/* <BankReducDemo></BankReducDemo> */}
+{/* <CompA></CompA>
+<CompB></CompB> */}
+{/* <CounterComp></CounterComp> */}
+{/* <CompC></CompC>
+<CompD></CompD> */}
+<CompA></CompA>
+<CompB></CompB>
     </div>
   );
 }
